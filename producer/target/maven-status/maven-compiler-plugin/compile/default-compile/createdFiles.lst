@@ -1,0 +1,5 @@
+com\example\flywaydb\InventoryManagementApplication.class
+com\example\flywaydb\controller\inventoryController.class
+com\example\flywaydb\Inventory.class
+com\example\flywaydb\repository\InventoryRepository.class
+com\example\flywaydb\service\InventoryService.class

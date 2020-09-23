@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.example.flywaydb.InventoryRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.673 s <<< FAILURE! - in com.example.flywaydb.InventoryRepositoryTest
+testFindById(com.example.flywaydb.InventoryRepositoryTest)  Time elapsed: 0.065 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: com.example.flywaydb.Inventory
+	at com.example.flywaydb.InventoryRepositoryTest.testFindById(InventoryRepositoryTest.java:41)
+Caused by: org.hibernate.PersistentObjectException: detached entity passed to persist: com.example.flywaydb.Inventory
+	at com.example.flywaydb.InventoryRepositoryTest.testFindById(InventoryRepositoryTest.java:41)
+

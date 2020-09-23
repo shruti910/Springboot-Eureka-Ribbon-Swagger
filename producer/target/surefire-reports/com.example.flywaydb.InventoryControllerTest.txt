@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.example.flywaydb.InventoryControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 26.062 s <<< FAILURE! - in com.example.flywaydb.InventoryControllerTest
+retrieve_Ok(com.example.flywaydb.InventoryControllerTest)  Time elapsed: 0.088 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.util.NoSuchElementException: No value present
+	at com.example.flywaydb.InventoryControllerTest.retrieve_Ok(InventoryControllerTest.java:73)
+Caused by: java.util.NoSuchElementException: No value present
+	at com.example.flywaydb.InventoryControllerTest.retrieve_Ok(InventoryControllerTest.java:73)
+
