@@ -1,1 +1,4 @@
-Code repo for hands-on related to Eureka-Ribbon course.
+- Spring Boot producer and consumer APIs registered on Eureka server for service discovery
+- Ribbon for client side load balancing.
+- H2 in-memory database.
+- Swagger 2 UI for documentation
